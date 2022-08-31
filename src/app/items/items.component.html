@@ -1,0 +1,19 @@
+<div class="con">
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4" *ngFor="let i of items">
+
+            <div class="card mt-3" style="width: 18rem;">
+                <img src="{{i.image}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">{{i.title}}</h5>
+                <p class="card-text">{{i.price | currency:"USD"}}</p>
+                <button (click)="renderProductDetailComponent(i.id)" class="btn btn-primary">Go somewhere</button>
+                </div>
+            </div>
+    
+
+        </div>
+        <div class="col-4"></div>
+    </div>
+</div>

@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Demoproject';
+  frameWork={
+    name:"Angular",
+    language:"JS",
+    version:"14.0"
+
+
+  }
+
 }

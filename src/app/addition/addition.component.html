@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="mb-3">
+        <input type="text" [placeholder]="numOnePlaceHolder"  class="form-control" (change)="setnum1($event)">  <!---placeholder oru property aayathukonddu aanu [ ]il koduthekkane--->
+    </div>
+    <div class="mb-3">
+        <input type="text" [placeholder]="numTwoPlaceHolder" class="form-control" (change)="setnum2($event)">
+    </div>
+    <div class="mb-3">
+        <button class="btn btn-info" (click)="performAddition()">Add</button>
+    </div>
+    
+</div>
